@@ -1,15 +1,12 @@
-<table>
-  <tr>
-    <td width="55%" valign="middle">
-      <h1>Systems under pressure.</h1>
-      <p>I’m <strong>Rishabh</strong>. I build security tools, study how attacker and defender agents learn, and prototype AI products.</p>
-      <p><a href="https://r1zzabh.github.io/R1zzabh/"><strong>Open the portfolio ↗</strong></a></p>
-    </td>
-    <td width="45%" valign="middle">
-      <a href="https://r1zzabh.github.io/R1zzabh/"><img width="340" src="./docs/assets/folded-wafer.jpg" alt="Open the portfolio. A wave of black material floats above stacked aluminum plates."></a>
-    </td>
-  </tr>
-</table>
+<h1 align="center">Rishabh Mishra</h1>
+
+<p align="center">I build security tools, study how attacker and defender agents learn, and prototype AI products.</p>
+
+<h2 align="center"><a href="https://r1zzabh.github.io/portfolio/">Explore my interactive portfolio ↗</a></h2>
+
+<p align="center">
+  <a href="https://r1zzabh.github.io/portfolio/"><img src="https://r1zzabh.github.io/portfolio/og.png" width="880" alt="Explore the portfolio. Four brass lenses open a museum, a desktop OS, an interrogation room, and a gallery."></a>
+</p>
 
 ## Projects
 
