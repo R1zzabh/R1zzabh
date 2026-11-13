@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f3ee">
+    <meta name="description" content="Rishabh's project portfolio. Explore a security operations lab, adversarial learning research, and AI product prototypes.">
+    <title>Rishabh — Selected work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="wordmark" href="#top" aria-label="Rishabh, back to top">RISHABH<span>.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#security">Security</a>
+          <a href="#research">Research</a>
+          <a href="#products">Products</a>
+          <a class="nav-github" href="https://github.com/R1zzabh">GitHub <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="label hero-label"><span class="blue-square" aria-hidden="true"></span> @R1ZZABH</p>
+          <h1 id="hero-title">Systems<br>under<br><em>pressure.</em></h1>
+          <p class="hero-description">I’m Rishabh. I build security tools, study how attacker and defender agents learn, and prototype AI products.</p>
+          <a class="button" href="#security">Explore the work <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="hero-figure">
+          <img src="./assets/folded-wafer.jpg" width="1402" height="1122" alt="A wave of black material suspended over stacked aluminum plates, edged in electric blue." fetchpriority="high">
+        </figure>
+      </section>
+
+      <section class="featured" id="security" aria-labelledby="signalforge-title">
+        <div class="shell featured-grid">
+          <div class="featured-copy">
+            <p class="label">Security operations</p>
+            <h2 id="signalforge-title">SignalForge</h2>
+            <p>A security operations lab that takes an alert from raw telemetry to a scored incident an analyst can investigate.</p>
+            <a class="project-link" href="https://github.com/R1zzabh/signalforge">Explore SignalForge <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="pipeline">
+            <div class="pipeline-header">
+              <h3>What happens to an alert?</h3>
+            </div>
+            <details name="signalforge-stage" open>
+              <summary><span class="step label" aria-hidden="true">01</span> Collect telemetry</summary>
+              <p>Events from the isolated Docker range enter the FastAPI intake pipeline.</p>
+            </details>
+            <details name="signalforge-stage">
+              <summary><span class="step label" aria-hidden="true">02</span> Enrich and score</summary>
+              <p>Rules weigh evidence such as reputation, behavior, and asset context on a 100-point risk scale.</p>
+            </details>
+            <details name="signalforge-stage">
+              <summary><span class="step label" aria-hidden="true">03</span> Investigate</summary>
+              <p>The operator console shows the score, mapped MITRE ATT&amp;CK techniques, and a timeline of the incident.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="research shell" id="research" aria-labelledby="violet-title">
+        <figure class="research-image">
+          <img src="./assets/violet-network.png" alt="VIOLET's network view shows connected nodes in a simulated environment." loading="lazy">
+        </figure>
+        <div class="research-copy">
+          <p class="label">Adversarial learning</p>
+          <h2 id="violet-title">VIOLET</h2>
+          <p>How do attackers and defenders adapt when both can learn?</p>
+          <p>VIOLET trains separate red and blue reinforcement learning policies in an isolated SQL injection lab. Saved episodes let you replay their decisions and inspect what actually happened.</p>
+          <a class="project-link" href="https://github.com/R1zzabh/violet-rl">Explore VIOLET <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="products shell" id="products" aria-labelledby="products-title">
+        <div class="section-heading">
+          <h2 id="products-title">Product work</h2>
+        </div>
+        <div class="product-grid">
+          <article class="product minute">
+            <img src="./assets/minutebloom-workspace.jpg" alt="MinuteBloom's meeting workspace showing a structured meeting summary." loading="lazy">
+            <div class="product-copy">
+              <p class="label">Meeting intelligence</p>
+              <h3>MinuteBloom AI</h3>
+              <p>Turns recordings into timestamped transcripts, decisions, and editable action items.</p>
+              <a class="project-link" href="https://github.com/R1zzabh/minute-bloom-ai">Explore MinuteBloom <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="product taste">
+            <div class="product-copy">
+              <p class="label">Music discovery case study</p>
+              <h3>TasteBridge</h3>
+              <p>What if you could choose how far your recommendations stray from what you already love?</p>
+              <a class="project-link" href="https://github.com/R1zzabh/NL-Spotify">Read the case study <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="discovery-scale" aria-hidden="true">
+              <span>FAMILIAR</span><span>UNEXPECTED</span>
+              <div class="scale-line"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <div>
+          <p class="label">Rishabh / R1zzabh</p>
+          <a class="footer-link" href="https://github.com/R1zzabh?tab=repositories">Browse the repositories <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
